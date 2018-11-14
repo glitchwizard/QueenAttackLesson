@@ -1,7 +1,10 @@
-namespace seedProject
+namespace QueenAttack
 {
-  public class seedProject
+  public class QueenAttack
   {
-    // Fill out class info here
+    public bool checkCoordinates()
+    {
+      return false;
+    }
   }
 }

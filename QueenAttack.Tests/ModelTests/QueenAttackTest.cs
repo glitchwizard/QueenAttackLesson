@@ -7,10 +7,10 @@ namespace QueenAttack.Tests
   public class QueenAttackTest
   {
     [TestMethod]
-        public void CHANGEME()
+        public void checkCoordinates_test_true()
         {
-          QueenAttack testSeedProject = new QueenAttack();
-          Assert.AreEqual(false, testQueenAttack.CHANGEME());
+          QueenAttack testQueenAttack = new QueenAttack();
+          Assert.AreEqual(true, testQueenAttack.checkCoordinates());
         }
   }
 }
